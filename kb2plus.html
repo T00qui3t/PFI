@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/kb2plus.css">
+</head>
+
+<body>
+    <header>
+        <nav class="primary-nav">
+            <a href="index.html">Index</a>
+            <a href="horaire.html">Horaire</a>
+            <a href="professions.html">Professions</a>
+            <a href="sujet.html">Sujet</a>
+        </nav>
+        <nav class="secondary-nav">
+            <a href="galerie.html">Galerie</a>
+            <a href="kb2plus.html">KB2 +</a>
+            <a href="sources.html">Sources</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="left-section"></section>
+        <section id="mid-section">
+            <div id="title-menu">
+                <h1><span>Les Métiers en Informatique</span></h1>
+                <div>
+                    <button>
+                        Menu
+                        <div class="dropdown">
+                            <a href="https://fr.wikipedia.org/wiki/Intelligence_artificielle" target="_blank">Web</a>
+                            <a href="https://fr.wikipedia.org/wiki/D%C3%A9veloppeur_web" target="_blank">IA</a>
+                            <a href="https://en.wikipedia.org/wiki/Mobile_app_development" target="_blank">Mobile</a>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <p id="summary">
+                <span>
+                    Il ya beaucoup de métiers dans le domaine de l'informatique. Ci-dessous, vous trouverez une vidéo
+                    explicative du domaine ainsi que certaines applications du language CSS. Le menu présente aussi des
+                    articles sur certaines spécifications de la programmation.
+                </span>
+            </p>
+            <video controls>
+                <source src="images/video_prog.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h2>
+                <span>CSS Animations</span>
+            </h2>
+            <div id="animations">
+                <div>
+                    <h3>Size Animation</h3>
+                    <p class="animated" id="size-animation">Hold Me!</p>
+                </div>
+                <div>
+                    <h3>Rotation Animation</h3>
+                    <p class="animated" id="rotate-animation">Hover Me!</p>
+                </div>
+            </div>
+            <h2>
+                <span>CSS Shape Shifting</span>
+            </h2>
+            <div id="images">
+                <img id="image1" src="images/vibes.jpg">
+                <img id="image2" src="images/vibes.jpg">
+                <img id="image3" src="images/vibes.jpg">
+            </div>
+        </section>
+        <section id="right-section"></section>
+    </main>
+
+    <footer>
+        <h3>Hermly Ambroise</h3>
+        <a href="sources.html" class="footer-link">Sources</a>
+        <h3>Decembre 2024</h3>
+    </footer>
+</body>
+
+</html>

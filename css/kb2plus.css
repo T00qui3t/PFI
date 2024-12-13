@@ -1,0 +1,164 @@
+#mid-section {
+    padding: 3rem 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+}
+
+#mid-section * {
+    padding: 0;
+    margin: 0;
+}
+
+#title-menu {
+    border: solid 2px white;
+    height: 4rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#title-menu h1 {
+    color: white;
+    background-color: rgb(220, 148, 148);
+    width: 79.65%;
+    font-size: 2rem;
+}
+
+#title-menu div {
+    background-color: rgb(220, 148, 148);;
+    width: 20%;
+}
+
+#title-menu div button {
+    cursor: pointer;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    border: none;
+    border-radius: 0.5rem;
+    position: relative;
+    color: rgb(220, 148, 148);
+    font-weight: bold;
+}
+
+.dropdown {
+    display: none !important;
+    position: absolute;
+    background-color: white !important;
+    width: 100% !important;
+    flex-flow: column nowrap;
+    align-items: stretch !important;
+    box-shadow: 5px 5px 5px rgb(157, 157, 157, 0.5);
+}
+
+.dropdown a {
+    text-decoration: none;
+    padding: 1rem 0 !important;
+    color: rgb(220, 148, 148);
+    border: rgb(220, 148, 148) solid 2px;
+    border-top: none;
+}
+
+#title-menu div button:hover div {
+    display: flex !important;
+}
+
+.dropdown a:hover {
+    background-color: rgb(237, 237, 237);
+}
+
+#summary {
+    padding: 0 2rem;
+    text-align: justify;
+    color: white;
+    border: solid 2px white;
+    height: 6rem;
+    background-color: rgb(232, 182, 239);
+}
+
+video {
+    border: solid 2px white;
+}
+
+h2 {
+    color: white;
+    border: solid 2px white;
+    height: 4rem;
+    background-color: rgb(220, 148, 148);
+    font-size: 1.4rem;
+}
+
+#animations {
+    color: white;
+    border: solid 2px white;
+    height: 15rem;
+    background-color: rgb(232, 182, 239);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.animated {
+    border: white solid 2px;
+    padding: 1rem !important;
+    border-radius: 0.5rem;
+    background-color: rgb(220, 148, 148);
+    cursor: pointer;
+}
+
+#animations div * {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#size-animation {
+    transition: padding 1s ease-in-out;
+}
+
+#size-animation:active {
+    padding: 2.3rem !important;
+}
+
+#rotate-animation {
+    transition: transform 1s ease-in-out;
+}
+
+#rotate-animation:hover {
+    transform: rotate(180deg);
+}
+
+#images {
+    border: solid 2px white;
+    height: 20rem;
+    background-color: rgb(232, 182, 239);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#images img {
+    width: 20%;
+    height: auto;
+}
+
+#image1 {
+    clip-path: circle(50%);
+}
+
+#image2 {
+    clip-path: circle(50% at right);
+}
+
+#image3 {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+h1, h2, #summary, #title-menu div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

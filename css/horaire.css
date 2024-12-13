@@ -1,0 +1,102 @@
+#mid-section {
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 500px;
+    width: 1000px;
+    align-items: stretch;
+}
+
+#mid-section h1 {
+    margin: 1.5rem 0 0 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#schedule-grid {
+    border: solid 1px black;
+    margin: 1.5rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#schedule-grid div {
+    height: 130px;
+    border: solid 1px black;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#schedule-grid p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.85rem;
+    text-align: center;
+    margin: 0.2rem 0;
+}
+
+.days {
+    background: rgb(0, 30, 255);
+    color: white;
+}
+
+.time {
+    font-weight: bold;
+    color: rgb(0, 30, 255);
+}
+
+.monday {
+    background: rgb(232, 207, 233);
+}
+
+.tuesday {
+    background: rgb(191, 214, 227);
+}
+
+.wednesday {
+    background: rgb(221, 236, 193);
+}
+
+.thursday {
+    background: rgb(236, 212, 193);
+}
+
+.friday {
+    background: rgb(165, 230, 209);
+}
+
+.description {
+    margin: 2rem 0;;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description div {
+    width: 60%;
+    text-align: justify;
+}
+
+.description img {
+    width: 30%;
+}
+
+@media only screen and (max-width: 650px) {
+    #mid-section {
+        min-width: 400px;
+        width: 400px;
+    }
+
+    .description {
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .description img {
+        width: 50%;
+    }
+}

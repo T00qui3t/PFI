@@ -1,0 +1,13 @@
+#mid-section {
+    background:#A57129;
+    padding: 0 50px;
+    display: grid;
+    gap: 50px;
+}
+
+#left-section,
+#right-section {
+    background-image: url("../images/musique.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
