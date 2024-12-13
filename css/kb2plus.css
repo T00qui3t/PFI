@@ -31,14 +31,14 @@
     width: 20%;
 }
 
-#title-menu div button {
+#dropdown-menu {
     cursor: pointer;
-    width: 50%;
-    height: 50%;
-    background-color: white;
+    width: 50% !important;
+    height: 50% !important;
+    background-color: white !important;
     border: none;
     border-radius: 0.5rem;
-    position: relative;
+    position: relative !important;
     color: rgb(220, 148, 148);
     font-weight: bold;
 }
@@ -61,7 +61,7 @@
     border-top: none;
 }
 
-#title-menu div button:hover div {
+#dropdown-menu:hover div {
     display: flex !important;
 }
 
